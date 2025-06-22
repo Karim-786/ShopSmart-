@@ -348,7 +348,7 @@ app.post('/login', async (req, res) => {
     if (!user) {
         return res.status(401).json({ message: 'Invalid email or password' });
     }
-    const isAdmin = email == 'virat@gmail.com' && password == 'virat@1234';
+    const isAdmin = email == 'karim_1234@gmail.com' && password == 'karim@1234';
     const isMatch = await bcrypt.compare(password, user.password);
     if (!isMatch) {
         return res.status(401).json({ message: 'Invalid email or password' });
