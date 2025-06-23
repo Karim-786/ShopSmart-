@@ -4,7 +4,6 @@ ShopSmart is a full-stack grocery web app offering a smooth digital shopping exp
 * setup ur mangodb compass stay connected to mangodb atlas copy url of connection set up the password then follow below commands.
 ## For working of project 
 by spliting the terminal:
-'''
+
 >* cd client :npm start
 >* cd server :npm run dev
-''' 
