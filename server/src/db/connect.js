@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 // Middleware
-const db = 'mongodb+srv://karimu:karim@cluster0.8ri3y1s.mongodb.net/'
+const db = 'mongodb+srv://karimu:<password>@cluster0.8ri3y1s.mongodb.net/'
 
 // Connect to MongoDB using the connection string
 mongoose.connect(db, {
